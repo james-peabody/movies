@@ -213,7 +213,6 @@ int process_menu(struct movie* movies) {
     }
     (void)atoi(buff);
     return 0;
-
 }
 
 struct movie* processFile(const char* filePath) {
