@@ -9,7 +9,7 @@
 #include <limits.h>
 #include <time.h>
 #include <fcntl.h>
-#include "movies_by_year.h"
+#include "main.h"
 #define PREFIX "movies_"
 
 
