@@ -212,7 +212,8 @@ int process_menu(struct movie* movies) {
                         printf("The file %s was not found, try again!\n\n", processFile);
     }
     (void)atoi(buff);
-    return;
+    return 0;
+
 }
 
 struct movie* processFile(const char* filePath) {
@@ -243,7 +244,7 @@ struct movie* processFile(const char* filePath) {
             tail = newNode;
         }
     }
-}
+
 // printf("Parsed data for %d movies\n", count);
 free(current_line);
 fclose(movie_file);
