@@ -123,7 +123,6 @@ void menu_loop(struct movie* movie) {
         data_output(choose, movie);
         output(movie);
     }
-    return;
 }
 /*
 struct movie* movie_create(char* current_line) {
